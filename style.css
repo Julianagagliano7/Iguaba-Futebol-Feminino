@@ -1,1 +1,80 @@
 @charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+@font-face {
+    font-family: 'Soccer';
+    src: url('fonts/SoccerLeague.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mermaid' ;
+    src: url('fonts/Mermaid\ Swash\ Caps.ttf');
+}
+
+:root {
+    --cor0: #F493D2;
+    --cor1: #734563;
+    --cor2: #f249b7d2;
+    --cor3: #bf3990e1;
+    --cor4: #BF49C1; 
+    --cor5: #732257; 
+    --cor6: #f2b90f7a;
+ 
+
+    --fonte-padrao: 'Roboto Slab, serif'; 
+    --fonte-destaque: 'Volkhov, serif'; 
+    --fonte-subtitulo: 'Mermaid'; 
+    --fonte-titulo: 'Soccer';
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3), #ffffff00);
+    height: 200px;
+    padding: 10px;
+}
+
+header h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 65px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+
+header img {
+    margin-right: 150px;
+}
+
+nav {
+    background-color: black;
+    height: 50px;   
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a {
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor5);
+    font-size: 20px;
+    margin: 50px;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: #221023d2;
+    border-radius: 10px;
+}
+
+
