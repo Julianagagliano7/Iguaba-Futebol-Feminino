@@ -1,6 +1,6 @@
 @charset "UTF-8"; 
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 
 
 @font-face {
@@ -34,6 +34,10 @@
     margin: 0px;
 }
 
+body {
+    background-color: #f493d29d;
+}
+
 header {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor3), #ffffff00);
     height: 200px;
@@ -43,6 +47,7 @@ header {
 header h1 {
     font-family: var(--fonte-titulo);
     font-size: 65px;
+    color: #000000ee;
     text-align: center;
     text-shadow: 1px 1px white;
 }
@@ -52,7 +57,7 @@ header img {
 }
 
 nav {
-    background-color: black;
+    background-color: #000000f5;
     height: 50px;   
 }
 
@@ -73,8 +78,99 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #221023d2;
+    background-color: #2210239c;
     border-radius: 10px;
 }
 
+main {
+    min-width: 300px;
+    max-width: 920px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
 
+main h2 {
+    font-family: var(--fonte-subtitulo);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+main p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 1.5;
+    margin: 8px;
+    padding: 2px;
+}
+
+.strong {
+    color: var(--cor2);
+}
+
+main strong a {
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+main strong a:hover{
+    color:var(--cor4);
+    text-decoration: underline;
+}
+
+section {
+    min-width: 300px;
+    max-width: 920px;
+    margin: auto;
+    padding: 20px;
+}
+
+section a {
+    font-family: var(--fonte-padrao);
+    font-size: 21px;
+    text-decoration: none;
+
+}
+
+section a:hover{
+    color: var(--cor4);
+    text-decoration: underline;
+}
+
+aside {
+    min-width: 300px;
+    max-width: 920px;
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+aside h2{
+    font-family: var(--fonte-subtitulo);
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+aside p {
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+    padding: 10px;
+    text-indent: 10px;
+    line-height: 1.5;
+}
+
+#ladoalado {
+    display: flex;
+    justify-content: center;
+}
+
+div img {
+    border-radius: 8px;  
+    margin: 10px; 
+}

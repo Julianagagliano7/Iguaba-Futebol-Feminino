@@ -1,4 +1,0 @@
-gradient w/ 3 colors:
-#FEFFFF
-#FE65C0
-#FAFAFC
