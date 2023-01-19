@@ -71,14 +71,14 @@ nav a {
     font-family: var(--fonte-padrao);
     font-weight: bold;
     text-decoration: none;
-    color: var(--cor5);
+    color: white;
     font-size: 20px;
     margin: 50px;
     padding: 10px;
 }
 
 nav a:hover{
-    background-color: #2210239c;
+    background-color: var(--cor2);
     border-radius: 10px;
 }
 
@@ -176,7 +176,7 @@ aside p {
     display: block;
     margin: auto;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid black;    
 }
 
 aside img {
@@ -215,4 +215,13 @@ footer p a {
 footer p a:hover{
     text-decoration: underline;
     color: var(--cor0);
+}
+
+.strong_diretoria {
+    text-decoration: none;
+    color: #732257;
+}
+
+.strong_diretoria:hover {
+    text-decoration: underline;
 }
