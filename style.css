@@ -82,6 +82,14 @@ nav a:hover{
     border-radius: 10px;
 }
 
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 main {
     min-width: 300px;
     max-width: 920px;
@@ -148,7 +156,7 @@ aside {
     background-color: white;
     margin-top: 30px;
     border-radius: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 aside h2{
@@ -166,21 +174,11 @@ aside p {
     line-height: 1.5;
 }
 
-#ladoalado {
-    display: flex;
-    justify-content: center;
-}
-
-
 .border_img{
     display: block;
     margin: auto;
     border-radius: 10px;
     border: 2px solid black;    
-}
-
-aside img {
-    margin-left: 30px;
 }
 
 aside a {
@@ -217,11 +215,17 @@ footer p a:hover{
     color: var(--cor0);
 }
 
-.strong_diretoria {
+a.strong_diretoria {
     text-decoration: none;
     color: #732257;
 }
 
 .strong_diretoria:hover {
     text-decoration: underline;
+}
+
+.diretoria_img {
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid black; 
 }
