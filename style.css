@@ -14,13 +14,13 @@
 }
 
 :root {
-    --cor0: #F493D2;
-    --cor1: #734563;
-    --cor2: #f249b7d2;
-    --cor3: #bf3990e1;
-    --cor4: #BF49C1; 
-    --cor5: #732257; 
-    --cor6: #f2b90f7a;
+    --cor0: #F486C5;
+    --cor1: #F23DA4;
+    --cor2: #FF40AC;
+    --cor3: #BF3081;
+    --cor4: #744861;
+    --cor5: #000000c5; 
+    --cor6: rgba(255, 255, 255, 0.699); 
  
 
     --fonte-padrao: 'Roboto Slab, serif'; 
@@ -35,11 +35,11 @@
 }
 
 body {
-    background-color: #f493d29d;
+    background-image: linear-gradient(to bottom, #f285c37c, #f486c498, #F4D0E4 );
 }
 
 header {
-    background-image: linear-gradient(to right,#694E75,#FF60C6,#9628B8,#6A1D82,#694E75);
+    background-image: linear-gradient(to top,#FD66C0, #f261b8d0, #bf4c91ab, #F4ABD7);
     height: 200px;
     padding: 10px;
 }
@@ -126,7 +126,7 @@ main strong a {
 }
 
 main strong a:hover{
-    color:var(--cor4);
+    color:var(--cor2);
     text-decoration: underline;
 }
 
@@ -193,7 +193,7 @@ aside a:hover {
 }
 
 footer {
-    background-color: var(--cor5);
+    background-color: var(--cor3);
     padding: 5px;
     margin-top: 30px;
 }
@@ -217,7 +217,7 @@ footer p a:hover{
 
 a.strong_diretoria {
     text-decoration: none;
-    color: #732257;
+    color: var(--cor2);
 }
 
 .strong_diretoria:hover {
