@@ -39,7 +39,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3), #ffffff00);
+    background-image: linear-gradient(to right,#694E75,#FF60C6,#9628B8,#6A1D82,#694E75);
     height: 200px;
     padding: 10px;
 }
@@ -229,3 +229,4 @@ a.strong_diretoria {
     margin-top: 10px;
     border: 2px solid black; 
 }
+
